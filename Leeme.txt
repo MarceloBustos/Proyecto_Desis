@@ -1,0 +1,12 @@
+Pasos a seguir para la correcta instalación del proyecto
+
+1. Descargar / Clonar los ficheros desde la ruta de git
+   "https://github.com/MarceloBustos/Proyecto_Desis"
+
+2. Desde la carpeta SQL obtener el archivo .sql para su importación en local o servidor que utilizarás, la base de datos en MySQL se debe llamar     "base_proyecto_desis"
+
+3. Modificar el fichero "conexión_mysqli.php" con las variables a utilizar.
+   (En mi caso utilicé <<$conectar = new mysqli("localhost", "usuario", "constraseña", "base_proyecto_desis");>>)
+   Si lo hacen correr en local deben cambiar el usuario y contraseña. Si lo corren en otro host tendrán que cambiar también "localhost" por el       que corresponda
+
+4. Cualquier consulta, no duden en contactarme. Buenos días.
